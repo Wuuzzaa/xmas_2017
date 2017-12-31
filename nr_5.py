@@ -26,7 +26,7 @@ zahlen.sort()
 # Fibonaccizahlen bis maximum berechnen ca. 92 Fibonaccizahl (google)
 fib_zahlen = fibonacci(92)
 
-# von hinten prüfen ob zahl primzahl ist
+# von hinten prüfen ob zahl Fibonaccizahl ist
 for i in range(len(zahlen)-1, 0, -1):
     if zahlen[i] in fib_zahlen:
         print("Höchste Fibonaccizahl ist: {}".format(zahlen[i]))
