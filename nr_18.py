@@ -253,7 +253,8 @@ hat_s1_gezogen = False
 while len(nordpol) != 0 or len(rovaniemi) != 0:
     hat_s1_gezogen = bewegen(hat_s1_gezogen)
 
-    print("Zugnr: {} war - {}".format(len(zuege), zuege[-1]))
+    print(zuege)
+    #print("Zugnr: {} war - {}".format(len(zuege), zuege[-1]))
     #print("Nordpol: {}".format(nordpol))
     #print("Rovaniemi: {}".format(rovaniemi))
     #print("Fulda: {}".format(fulda))
