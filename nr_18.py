@@ -129,6 +129,25 @@ def bewege_nicht_s1():
     else:
         bewege_s1()
 
+
+def bewegen(hat_s1_gezogen):
+    """
+
+    :param hat_s1_gezogen:
+    :return: Gibt zurück ob s1 gezogen hat -> man weiß im nächsten zug ob s1 ziehen muss
+    """
+    global nordpol
+    global rovaniemi
+    global fulda
+    global s1
+    global zuege
+
+    # lets go
+
+
+
+
+
 while len(nordpol) != 0 or len(rovaniemi) != 0:
     # Gerader Zug -> s1 wird verschoben
     if len(zuege) % 2 == 0:
