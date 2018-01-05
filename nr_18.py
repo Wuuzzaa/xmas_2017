@@ -1,4 +1,6 @@
-
+# Nicht in .py gelöst. Lösung siehe 18.jpg 1+2
+#
+#
 
 # Stapel init
 global nordpol
